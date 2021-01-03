@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.nav-bar {
+  background-color:#1565c0;
+  display: flex;
+}
+
+/* #signin{
+  margin
+} */
+
+.footer{
+  background-color:#343A40;
+  padding:2px;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  color:white;
+}
+
+.home{
+  bottom:0;
+  display: flex;
+  /* padding: 197px; */
+  text-align:center;
+  height:600px;
+}
+
+.description{
+  font-weight:bold;
+}
+
+.welcome-screen{
+  margin:auto;
+  text-align:center;
+}
+.center{
+  margin:auto;
+  text-align:center;
+}
+
+.social-links{
+  padding:5px;
+}
+
+.forgot-password{
+  text-decoration: none;
+  margin-top:10px;
+}
+
+.forgot-password a{
+  text-decoration:none;
+}
+
+.signInBtn{
+  border-radius:0;
+  /* margin:5px; */
+  margin:auto;
+}
+
+.table-margin{
+  margin-top:10px;
+}
